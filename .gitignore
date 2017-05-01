@@ -57,9 +57,9 @@ proj.android/bin/
 proj.android/assets/
 proj.android/bin/
 proj.android/gen/
-gproj.android/libs/
+proj.android/libs/
 proj.android/local.properties
-gproj.android/obj/
+proj.android/obj/
 proj.android/app/obj/
 cocos2d/cocos/platform/android/java/bin/
 cocos2d/cocos/platform/android/java/gen/
@@ -70,19 +70,19 @@ cocos2d/cocos/platform/android/java/res/
 
 # proj.android-studio
 *.iml
-gproj.android-studio/app/assets
-gproj.android-studio/app/obj/
-gproj.android-studio/app/obj/local/*
-gproj.android-studio/app/libs/armeabi
+proj.android-studio/app/assets
+proj.android-studio/app/obj/
+proj.android-studio/app/obj/local/*
+proj.android-studio/app/libs/armeabi
 #proj.android-studio/app/gradle.properties
-gproj.android-studio/app/local.properties
-gproj.android-studio/*/build/
-gcocos2d/cocos/platform/android/libcocos2dx/build/
-gproj.android-studio/local.properties
-gproj.android-studio/.idea/workspace.xml
-gproj.android-studio/.idea/libraries
-gproj.android-studio/build
-gproj.android-studio/captures
+proj.android-studio/app/local.properties
+proj.android-studio/*/build/
+cocos2d/cocos/platform/android/libcocos2dx/build/
+proj.android-studio/local.properties
+proj.android-studio/.idea/workspace.xml
+proj.android-studio/.idea/libraries
+proj.android-studio/build
+proj.android-studio/captures
 
 *.apk
 *.ap_
@@ -104,11 +104,11 @@ proj.android-studio/.idea/*.xml
 !.idea/runConfigurations/*.xml
 
 # proj.ios_mac
-gcocos2d/build/build/
-gcocos2d/build/cocos2d_libs.xcodeproj/xcuserdata/
-gproj.ios_mac/build/
-gproj.ios_mac/*.xcodeproj/project.xcworkspace/
-gproj.ios_mac/*.xcodeproj/xcuserdata/
+cocos2d/build/build/
+cocos2d/build/cocos2d_libs.xcodeproj/xcuserdata/
+proj.ios_mac/build/
+proj.ios_mac/*.xcodeproj/project.xcworkspace
+proj.ios_mac/*.xcodeproj/xcuserdata/
 !*.pch
 
 # proj.linux

@@ -7,7 +7,6 @@
 //
 
 #include "Timer.hpp"
-USING_NS_CC;
 namespace br {
 
 bool Timer::isExpired(bool autoReset) {
