@@ -15,7 +15,7 @@
                 <key>spriteSourceSize</key>
                 <string>{30,30}</string>
                 <key>textureRect</key>
-                <string>{{63,26},{30,30}}</string>
+                <string>{{61,26},{30,30}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -30,7 +30,7 @@
                 <key>spriteSourceSize</key>
                 <string>{30,30}</string>
                 <key>textureRect</key>
-                <string>{{95,26},{30,30}}</string>
+                <string>{{93,26},{30,30}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -39,13 +39,13 @@
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{0,0}</string>
+                <string>{-1,0}</string>
                 <key>spriteSize</key>
-                <string>{60,60}</string>
+                <string>{58,58}</string>
                 <key>spriteSourceSize</key>
                 <string>{60,60}</string>
                 <key>textureRect</key>
-                <string>{{1,1},{60,60}}</string>
+                <string>{{1,1},{58,58}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -60,7 +60,7 @@
                 <key>spriteSourceSize</key>
                 <string>{30,30}</string>
                 <key>textureRect</key>
-                <string>{{127,26},{30,30}}</string>
+                <string>{{125,26},{30,30}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -75,7 +75,7 @@
                 <key>spriteSourceSize</key>
                 <string>{150,25}</string>
                 <key>textureRect</key>
-                <string>{{63,1},{150,23}}</string>
+                <string>{{61,1},{150,23}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -91,9 +91,9 @@
             <key>realTextureFileName</key>
             <string>main.png</string>
             <key>size</key>
-            <string>{214,62}</string>
+            <string>{212,60}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:61377db21c1ad80e0c64b8a6806c3cfa:07cdc10f2da21a3354d8de727f5b0ecc:693584bbba79ecadf35d6b2cf3a849c9$</string>
+            <string>$TexturePacker:SmartUpdate:01a5c92632e85e601efcc8c2eeb3845c:8c8b27a13ab7f56be61631f31228946a:693584bbba79ecadf35d6b2cf3a849c9$</string>
             <key>textureFileName</key>
             <string>main.png</string>
         </dict>

@@ -22,7 +22,7 @@ std::string SampleGameController::getFile() {
 
 void SampleGameController::setupScene(cocos2d::Scene *scene) {
     setClickListener("button", EVT(SampleGameController::onClickStartButton));
-    experimental::AudioEngine::preload("bgm01.mp3");
+    // experimental::AudioEngine::preload("bgm01.mp3");
     auto dispacher = Director::getInstance()->getEventDispatcher();
     auto listener = EventListenerCustom::create(
         "GAMEOVER", CC_CALLBACK_1(SampleGameController::gameOver, this));
@@ -32,7 +32,7 @@ void SampleGameController::setupScene(cocos2d::Scene *scene) {
         "ADDSCORE", CC_CALLBACK_1(SampleGameController::addScore, this));
     dispacher->addEventListenerWithSceneGraphPriority(listener2, getScene());
 
-    experimental::AudioEngine::stopAll();
+    // experimental::AudioEngine::stopAll();
 
     // Cocos CreatorのVisible設定が反映されない。。。
     // そのため、最初に非表示にしとく
@@ -53,7 +53,7 @@ void SampleGameController::onClickStartButton(cocos2d::Ref *ref) {
 }
 
 void SampleGameController::startGame() {
-    experimental::AudioEngine::play2d("bgm01.mp3");
+    // experimental::AudioEngine::play2d("bgm01.mp3");
     auto s = getScene();
     auto game = utils::findChild(s, "game");
     auto logic = BlockGameLogic::create();

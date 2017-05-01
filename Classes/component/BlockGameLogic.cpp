@@ -16,9 +16,9 @@ USING_NS_CC;
 bool BlockGameLogic::init() {
     Component::init();
     setName("gamelogic");
-    experimental::AudioEngine::preload("gun05.mp3");
-    experimental::AudioEngine::preload("kaiten03.mp3");
-    experimental::AudioEngine::preload("exp05.mp3");
+    //    experimental::AudioEngine::preload("gun05.mp3");
+    //    experimental::AudioEngine::preload("kaiten03.mp3");
+    //    experimental::AudioEngine::preload("exp05.mp3");
 
     m_timer = br::Timer(1.0f, 1.0f);
 
@@ -57,8 +57,8 @@ void BlockGameLogic::destroyBlock(cocos2d::Sprite *b) {
     auto dis = getOwner()->getEventDispatcher();
     dis->dispatchCustomEvent("ADDSCORE");
 
-    int se = experimental::AudioEngine::play2d("gun05.mp3");
-    experimental::AudioEngine::setVolume(se, 0.2f);
+    //    int se = experimental::AudioEngine::play2d("gun05.mp3");
+    //    experimental::AudioEngine::setVolume(se, 0.2f);
     if (m_star) {
         for (auto i = 45; i < 360; i += 90) {
             auto rad = CC_DEGREES_TO_RADIANS(i);
@@ -159,7 +159,7 @@ bool BlockGameLogic::evaluateWall(Ball *ball) {
 
 void BlockGameLogic::gameOver() {
     if (m_bar == nullptr) return;
-    experimental::AudioEngine::play2d("exp05.mp3");
+    // experimental::AudioEngine::play2d("exp05.mp3");
     auto particle = ParticleSystemQuad::create("explode.plist");
     particle->setAutoRemoveOnFinish(true);
     particle->setPosition(m_bar->getPosition());
@@ -187,7 +187,7 @@ bool BlockGameLogic::evaluateBar(Ball *ball) {
         distance = powf(distance, 1.3f);
         delta.x += pos.x > ballX ? -distance : distance;
         ball->hit(delta);
-        experimental::AudioEngine::play2d("kaiten03.mp3");
+        // experimental::AudioEngine::play2d("kaiten03.mp3");
         return true;
     }
     return false;

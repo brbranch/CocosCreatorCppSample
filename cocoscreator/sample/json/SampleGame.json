@@ -65,18 +65,18 @@
 						"object": {
 							"node": {
 								"contentSize": {
-									"w": 415,
-									"h": 571
+									"w": 671,
+									"h": 1008
 								},
 								"name": "background",
 								"anchorPoint": {
-									"x": 0.489,
-									"y": 0.497
+									"x": 0.5,
+									"y": 0.5
 								},
 								"cascadeOpacityEnabled": true,
 								"color": {
-									"r": 255,
-									"g": 255,
+									"r": 160,
+									"g": 240,
 									"b": 255
 								},
 								"globalZOrder": 0,
@@ -84,18 +84,18 @@
 								"opacity": 255,
 								"opacityModifyRGB": false,
 								"position": {
-									"x": -8,
-									"y": -11
+									"x": 0,
+									"y": 2
 								},
 								"rotationSkewX": 0,
 								"rotationSkewY": 0,
-								"scaleX": 1.9,
-								"scaleY": 1.9,
+								"scaleX": 1,
+								"scaleY": 1,
 								"skewX": 0,
 								"skewY": 0,
 								"tag": -1
 							},
-							"spriteFrameName": "sky_0010a",
+							"spriteFrameName": "default_sprite_splash",
 							"spriteType": "Simple",
 							"srcBlend": 770,
 							"dstBlend": 771,
@@ -287,8 +287,8 @@
 						"object": {
 							"node": {
 								"contentSize": {
-									"w": 60,
-									"h": 60
+									"w": 58,
+									"h": 58
 								},
 								"name": "block",
 								"anchorPoint": {
@@ -744,13 +744,13 @@
 	},
 	"spriteFrames": [
 		{
-			"name": "sky_0010a",
-			"texturePath": "creator/image/sky_0010a.jpg",
+			"name": "default_sprite_splash",
+			"texturePath": "creator/image/default_sprite_splash.png",
 			"rect": {
 				"x": 0,
 				"y": 0,
-				"w": 1000,
-				"h": 1000
+				"w": 2,
+				"h": 2
 			},
 			"offset": {
 				"x": 0,
@@ -758,14 +758,14 @@
 			},
 			"rotated": false,
 			"originalSize": {
-				"w": 1000,
-				"h": 1000
+				"w": 2,
+				"h": 2
 			},
 			"centerRect": {
 				"x": 0,
 				"y": 0,
-				"w": 1000,
-				"h": 1000
+				"w": 2,
+				"h": 2
 			}
 		},
 		{
@@ -797,7 +797,7 @@
 			"name": "ball01.png",
 			"texturePath": "creator/image/main.png",
 			"rect": {
-				"x": 63,
+				"x": 61,
 				"y": 26,
 				"w": 30,
 				"h": 30
@@ -822,7 +822,7 @@
 			"name": "ball02.png",
 			"texturePath": "creator/image/main.png",
 			"rect": {
-				"x": 95,
+				"x": 93,
 				"y": 26,
 				"w": 30,
 				"h": 30
@@ -849,11 +849,11 @@
 			"rect": {
 				"x": 1,
 				"y": 1,
-				"w": 60,
-				"h": 60
+				"w": 58,
+				"h": 58
 			},
 			"offset": {
-				"x": 0,
+				"x": -1,
 				"y": 0
 			},
 			"rotated": false,
@@ -864,15 +864,15 @@
 			"centerRect": {
 				"x": 0,
 				"y": 0,
-				"w": 60,
-				"h": 60
+				"w": 58,
+				"h": 58
 			}
 		},
 		{
 			"name": "lightbg.png",
 			"texturePath": "creator/image/main.png",
 			"rect": {
-				"x": 127,
+				"x": 125,
 				"y": 26,
 				"w": 30,
 				"h": 30
@@ -897,7 +897,7 @@
 			"name": "rod01.png",
 			"texturePath": "creator/image/main.png",
 			"rect": {
-				"x": 63,
+				"x": 61,
 				"y": 1,
 				"w": 150,
 				"h": 23
