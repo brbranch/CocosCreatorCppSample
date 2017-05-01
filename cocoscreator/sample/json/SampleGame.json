@@ -1,0 +1,998 @@
+{
+	"version": "1.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"cascadeOpacityEnabled": true,
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"globalZOrder": 0,
+				"localZOrder": 0,
+				"opacity": 255,
+				"opacityModifyRGB": false,
+				"tag": -1
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"contentSize": {
+						"w": 640,
+						"h": 960
+					},
+					"name": "Canvas",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"cascadeOpacityEnabled": true,
+					"color": {
+						"r": 0,
+						"g": 0,
+						"b": 0
+					},
+					"globalZOrder": 0,
+					"localZOrder": 0,
+					"opacity": 255,
+					"opacityModifyRGB": false,
+					"position": {
+						"x": 320,
+						"y": 480
+					},
+					"rotationSkewX": 0,
+					"rotationSkewY": 0,
+					"scaleX": 1,
+					"scaleY": 1,
+					"skewX": 0,
+					"skewY": 0,
+					"tag": -1
+				},
+				"object_type": "Node",
+				"children": [
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 415,
+									"h": 571
+								},
+								"name": "background",
+								"anchorPoint": {
+									"x": 0.489,
+									"y": 0.497
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": -8,
+									"y": -11
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1.9,
+								"scaleY": 1.9,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "sky_0010a",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Custom"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 640,
+									"h": 960
+								},
+								"name": "game",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 0,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 0,
+									"y": 0
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "default_sprite",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Custom"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 592.2,
+									"h": 330
+								},
+								"name": "description",
+								"anchorPoint": {
+									"x": 0,
+									"y": 1
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 0,
+									"g": 0,
+									"b": 0
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": -300.6,
+									"y": -140.2
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"fontSize": 18,
+							"labelText": "Cocos Creator + Cocos2d-x(c++) 1 day チャレンジのゲーム\n理由もなく落ちてくるりんごを理由もなく壊し続けるブロック崩しです。\nボールが落ちるか、バーがりんごにあたるとゲームオーバーです。\n【使用素材】\n・BGM\n　甘茶の音楽工房\n・効果音\n　On-Jin ～音人～\n・画像\n　いらすとや\n　よく訓練された素材屋",
+							"horizontalAlignment": "Left",
+							"verticalAlignment": "Top",
+							"overflowType": "None",
+							"enableWrap": true,
+							"fontType": "System",
+							"fontName": "arial"
+						},
+						"object_type": "Label",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 150,
+									"h": 23
+								},
+								"name": "player",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 158.0000001,
+									"y": -382
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "rod01.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 30,
+									"h": 30
+								},
+								"name": "ball",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 158.4,
+									"y": -356
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "ball01.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 60,
+									"h": 60
+								},
+								"name": "block",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": -280,
+									"y": 359
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "block01.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 195,
+									"h": 79
+								},
+								"name": "button",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 2,
+									"y": 114
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"ignoreContentAdaptWithSize": false,
+							"spriteFrameName": "default_btn_normal",
+							"pressedSpriteFrameName": "default_btn_pressed",
+							"disabledSpriteFrameName": "default_btn_disabled"
+						},
+						"object_type": "Button",
+						"children": [
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 100,
+											"h": 40
+										},
+										"name": "Label",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1
+									},
+									"fontSize": 20,
+									"labelText": "Start",
+									"horizontalAlignment": "Center",
+									"verticalAlignment": "Center",
+									"overflowType": "Clamp",
+									"enableWrap": false,
+									"fontType": "System",
+									"fontName": "arial"
+								},
+								"object_type": "Label",
+								"children": []
+							}
+						]
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 255.75,
+									"h": 50
+								},
+								"name": "gameover",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 0,
+									"g": 0,
+									"b": 0
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 0,
+									"y": 201
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1.5,
+								"scaleY": 1.5,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"fontSize": 40,
+							"labelText": "GAMEOVER\n",
+							"horizontalAlignment": "Center",
+							"verticalAlignment": "Center",
+							"overflowType": "None",
+							"enableWrap": true,
+							"fontName": "creator/testfont.fnt",
+							"fontType": "BMFont",
+							"lineHeight": 40
+						},
+						"object_type": "Label",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 195,
+									"h": 81
+								},
+								"name": "retry",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 4,
+									"y": -36
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"ignoreContentAdaptWithSize": false,
+							"spriteFrameName": "default_btn_normal",
+							"pressedSpriteFrameName": "default_btn_pressed",
+							"disabledSpriteFrameName": "default_btn_disabled"
+						},
+						"object_type": "Button",
+						"children": [
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 100,
+											"h": 40
+										},
+										"name": "Label",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1
+									},
+									"fontSize": 20,
+									"labelText": "Retry",
+									"horizontalAlignment": "Center",
+									"verticalAlignment": "Center",
+									"overflowType": "Clamp",
+									"enableWrap": false,
+									"fontType": "System",
+									"fontName": "arial"
+								},
+								"object_type": "Label",
+								"children": []
+							}
+						]
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 787,
+									"h": 124
+								},
+								"name": "sprite_splash",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": 2,
+									"y": 458.0000001
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "lightbg.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Custom"
+						},
+						"object_type": "Sprite",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 167.5,
+									"h": 50
+								},
+								"name": "scoreLabel",
+								"anchorPoint": {
+									"x": 0,
+									"y": 1
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 0,
+									"g": 0,
+									"b": 0
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": -306.0000001,
+									"y": 467.0999999
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"fontSize": 40,
+							"labelText": "SCORE:\n",
+							"horizontalAlignment": "Center",
+							"verticalAlignment": "Center",
+							"overflowType": "None",
+							"enableWrap": true,
+							"fontName": "creator/BmFont01.fnt",
+							"fontType": "BMFont",
+							"lineHeight": 40
+						},
+						"object_type": "Label",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 216.88,
+									"h": 25
+								},
+								"name": "score",
+								"anchorPoint": {
+									"x": 0,
+									"y": 0
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 0,
+									"g": 0,
+									"b": 0
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": -128.1,
+									"y": 443
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"fontSize": 40,
+							"labelText": "00000000",
+							"horizontalAlignment": "Center",
+							"verticalAlignment": "Center",
+							"overflowType": "None",
+							"enableWrap": true,
+							"fontName": "creator/BmFont01.fnt",
+							"fontType": "BMFont",
+							"lineHeight": 40
+						},
+						"object_type": "Label",
+						"children": []
+					},
+					{
+						"object": {
+							"node": {
+								"contentSize": {
+									"w": 30,
+									"h": 30
+								},
+								"name": "star",
+								"anchorPoint": {
+									"x": 0.5,
+									"y": 0.5
+								},
+								"cascadeOpacityEnabled": true,
+								"color": {
+									"r": 255,
+									"g": 255,
+									"b": 255
+								},
+								"globalZOrder": 0,
+								"localZOrder": 0,
+								"opacity": 255,
+								"opacityModifyRGB": false,
+								"position": {
+									"x": -174,
+									"y": 343
+								},
+								"rotationSkewX": 0,
+								"rotationSkewY": 0,
+								"scaleX": 1,
+								"scaleY": 1,
+								"skewX": 0,
+								"skewY": 0,
+								"tag": -1
+							},
+							"spriteFrameName": "ball02.png",
+							"spriteType": "Simple",
+							"srcBlend": 770,
+							"dstBlend": 771,
+							"trimEnabled": true,
+							"sizeMode": "Trimmed"
+						},
+						"object_type": "Sprite",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	"designResolution": {
+		"w": 640,
+		"h": 960
+	},
+	"spriteFrames": [
+		{
+			"name": "sky_0010a",
+			"texturePath": "creator/image/sky_0010a.jpg",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 1000
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 1000,
+				"h": 1000
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 1000
+			}
+		},
+		{
+			"name": "default_sprite",
+			"texturePath": "creator/image/default_sprite.png",
+			"rect": {
+				"x": 0,
+				"y": 2,
+				"w": 40,
+				"h": 36
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 40,
+				"h": 40
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 36
+			}
+		},
+		{
+			"name": "ball01.png",
+			"texturePath": "creator/image/main.png",
+			"rect": {
+				"x": 63,
+				"y": 26,
+				"w": 30,
+				"h": 30
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 30,
+				"h": 30
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 30
+			}
+		},
+		{
+			"name": "ball02.png",
+			"texturePath": "creator/image/main.png",
+			"rect": {
+				"x": 95,
+				"y": 26,
+				"w": 30,
+				"h": 30
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 30,
+				"h": 30
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 30,
+				"h": 30
+			}
+		},
+		{
+			"name": "block01.png",
+			"texturePath": "creator/image/main.png",
+			"rect": {
+				"x": 1,
+				"y": 1,
+				"w": 60,
+				"h": 60
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 60,
+				"h": 60
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 60,
+				"h": 60
+			}
+		},
+		{
+			"name": "lightbg.png",
+			"texturePath": "creator/image/main.png",
+			"rect": {
+				"x": 127,
+				"y": 26,
+				"w": 30,
+				"h": 30
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 30,
+				"h": 30
+			},
+			"centerRect": {
+				"x": 4,
+				"y": 5,
+				"w": 22,
+				"h": 20
+			}
+		},
+		{
+			"name": "rod01.png",
+			"texturePath": "creator/image/main.png",
+			"rect": {
+				"x": 63,
+				"y": 1,
+				"w": 150,
+				"h": 23
+			},
+			"offset": {
+				"x": 0,
+				"y": 1
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 150,
+				"h": 25
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 150,
+				"h": 23
+			}
+		},
+		{
+			"name": "default_btn_normal",
+			"texturePath": "creator/image/default_btn_normal.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 40
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 40,
+				"h": 40
+			},
+			"centerRect": {
+				"x": 3,
+				"y": 3,
+				"w": 34,
+				"h": 30
+			}
+		},
+		{
+			"name": "default_btn_pressed",
+			"texturePath": "creator/image/default_btn_pressed.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 40
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 40,
+				"h": 40
+			},
+			"centerRect": {
+				"x": 3,
+				"y": 4,
+				"w": 34,
+				"h": 32
+			}
+		},
+		{
+			"name": "default_btn_disabled",
+			"texturePath": "creator/image/default_btn_disabled.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 40
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 40,
+				"h": 40
+			},
+			"centerRect": {
+				"x": 4,
+				"y": 4,
+				"w": 32,
+				"h": 28
+			}
+		}
+	],
+	"animationClips": []
+}

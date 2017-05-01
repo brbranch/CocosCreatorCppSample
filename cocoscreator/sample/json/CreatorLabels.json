@@ -1,0 +1,437 @@
+{
+	"version": "1.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"cascadeOpacityEnabled": true,
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"globalZOrder": 0,
+				"localZOrder": 0,
+				"opacity": 255,
+				"opacityModifyRGB": false,
+				"tag": -1
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"contentSize": {
+						"w": 960,
+						"h": 640
+					},
+					"name": "Canvas",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"cascadeOpacityEnabled": true,
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255
+					},
+					"globalZOrder": 0,
+					"localZOrder": 0,
+					"opacity": 255,
+					"opacityModifyRGB": false,
+					"position": {
+						"x": 480,
+						"y": 320
+					},
+					"rotationSkewX": 0,
+					"rotationSkewY": 0,
+					"scaleX": 1,
+					"scaleY": 1,
+					"skewX": 0,
+					"skewY": 0,
+					"tag": -1
+				},
+				"object_type": "Node",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 320.17,
+							"h": 40
+						},
+						"name": "Label",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 0,
+							"g": 255,
+							"b": 0
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 186,
+							"y": 117
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 32,
+					"labelText": "System Font Label: 32",
+					"horizontalAlignment": "Center",
+					"verticalAlignment": "Center",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontType": "System",
+					"fontName": "arial"
+				},
+				"object_type": "Label",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 280,
+							"h": 47.5
+						},
+						"name": "arial16",
+						"anchorPoint": {
+							"x": 1,
+							"y": 1
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 71,
+							"g": 0,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 300,
+							"y": 71
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 40,
+					"labelText": "BMFont: Arial 16",
+					"horizontalAlignment": "Left",
+					"verticalAlignment": "Top",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontName": "creator/arial16.fnt",
+					"fontType": "BMFont",
+					"lineHeight": 19
+				},
+				"object_type": "Label",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 748.47,
+							"h": 64
+						},
+						"name": "A Damn Mess",
+						"anchorPoint": {
+							"x": 0,
+							"y": 0
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 0,
+							"b": 0
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 21,
+							"y": 181
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 64,
+					"labelText": "TTF Font: A Damn Mess: 64",
+					"horizontalAlignment": "Left",
+					"verticalAlignment": "Top",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontName": "creator/58b104e0-68e1-4f7a-ab38-4f44521a7943/A Damn Mess.ttf",
+					"fontType": "TTF",
+					"lineHeight": 64
+				},
+				"object_type": "Label",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 222.81,
+							"h": 144
+						},
+						"name": "A Damn Mess",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 133,
+							"b": 0
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 472,
+							"y": 84
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 32,
+					"labelText": "This is a\nmultiline\nTTF label: Left",
+					"horizontalAlignment": "Left",
+					"verticalAlignment": "Center",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontName": "creator/27d18d5e-feac-410d-a9f8-8a9ddb7213c2/American Typewriter.ttf",
+					"fontType": "TTF",
+					"lineHeight": 48
+				},
+				"object_type": "Label",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 259.06,
+							"h": 192
+						},
+						"name": "A Damn Mess",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 224,
+							"b": 0
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 730,
+							"y": 102
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 32,
+					"labelText": "This is a\nmultiline\nTTF label:  Right",
+					"horizontalAlignment": "Right",
+					"verticalAlignment": "Center",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontName": "creator/27d18d5e-feac-410d-a9f8-8a9ddb7213c2/American Typewriter.ttf",
+					"fontType": "TTF",
+					"lineHeight": 64
+				},
+				"object_type": "Label",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 304.67,
+							"h": 100
+						},
+						"name": "richText",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 172,
+							"y": 569
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"text": "<color=#00ff00>Rich</c><color=#0fffff>Text</color><br/>using default font",
+					"horizontalAlignment": "Left",
+					"fontSize": 40,
+					"maxWidth": 0,
+					"lineHeight": 50
+				},
+				"object_type": "RichText",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 194.92,
+							"h": 100
+						},
+						"name": "richText",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 491,
+							"y": 568
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"text": "<color=#00ff00>Rich</c><color=#0fffff>Text</color><br/>using TTF",
+					"horizontalAlignment": "Center",
+					"fontSize": 40,
+					"maxWidth": 0,
+					"lineHeight": 50,
+					"fontFilename": "27d18d5e-feac-410d-a9f8-8a9ddb7213c2/American Typewriter.ttf"
+				},
+				"object_type": "RichText",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 217.93,
+							"h": 100
+						},
+						"name": "richText",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 827,
+							"y": 568
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"text": "<color=#00ff00>Rich</c><color=#0fffff>Text</color><br/>right aligned",
+					"horizontalAlignment": "Right",
+					"fontSize": 40,
+					"maxWidth": 0,
+					"lineHeight": 50
+				},
+				"object_type": "RichText",
+				"children": []
+			}
+		]
+	},
+	"designResolution": {
+		"w": 960,
+		"h": 640
+	},
+	"spriteFrames": [],
+	"animationClips": []
+}

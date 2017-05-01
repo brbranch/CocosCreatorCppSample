@@ -1,0 +1,581 @@
+{
+	"version": "1.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"cascadeOpacityEnabled": true,
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"globalZOrder": 0,
+				"localZOrder": 0,
+				"opacity": 255,
+				"opacityModifyRGB": false,
+				"tag": -1
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"contentSize": {
+						"w": 960,
+						"h": 640
+					},
+					"name": "Canvas",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"cascadeOpacityEnabled": true,
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255
+					},
+					"globalZOrder": 0,
+					"localZOrder": 0,
+					"opacity": 255,
+					"opacityModifyRGB": false,
+					"position": {
+						"x": 480,
+						"y": 320
+					},
+					"rotationSkewX": 0,
+					"rotationSkewY": 0,
+					"scaleX": 1,
+					"scaleY": 1,
+					"skewX": 0,
+					"skewY": 0,
+					"tag": -1
+				},
+				"object_type": "Node",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 0,
+							"h": 0
+						},
+						"name": "New Node",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 387,
+							"y": 178
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"jsonFile": "creator/9ebe8785-f77c-42b7-ad30-534127e6c986/raw-skeleton.json",
+					"atlasFile": "creator/goblins.atlas",
+					"defaultSkin": "goblingirl",
+					"defaultAnimation": "walk",
+					"loop": true,
+					"premultipliedAlpha": false,
+					"timeScale": 1,
+					"debugSlots": false,
+					"debugBones": false
+				},
+				"object_type": "SpineSkeleton",
+				"children": []
+			},
+			{
+				"object": {
+					"contentSize": {
+						"w": 0,
+						"h": 0
+					},
+					"name": "Empty Node",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"cascadeOpacityEnabled": true,
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255
+					},
+					"globalZOrder": 0,
+					"localZOrder": 0,
+					"opacity": 255,
+					"opacityModifyRGB": false,
+					"position": {
+						"x": 813,
+						"y": 355
+					},
+					"rotationSkewX": 0,
+					"rotationSkewY": 0,
+					"scaleX": 1,
+					"scaleY": 1,
+					"skewX": 0,
+					"skewY": 0,
+					"tag": -1
+				},
+				"object_type": "Node",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 51,
+							"h": 109
+						},
+						"name": "grossini_dance_08_1",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 680,
+							"y": 297
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1,
+						"anim": {
+							"playOnLoad": true,
+							"name": "",
+							"objFlags": 0,
+							"defaultClip": "959ef130-f65b-4b6e-a9eb-8f0752c0e6a9",
+							"clips": [
+								"959ef130-f65b-4b6e-a9eb-8f0752c0e6a9"
+							]
+						}
+					},
+					"spriteFrameName": "grossini_dance_08",
+					"spriteType": "Simple",
+					"srcBlend": 770,
+					"dstBlend": 771,
+					"trimEnabled": true,
+					"sizeMode": "Custom"
+				},
+				"object_type": "Sprite",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 51,
+							"h": 109
+						},
+						"name": "grossini_dance_08_2",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 149,
+							"y": 502
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1,
+						"anim": {
+							"playOnLoad": true,
+							"name": "",
+							"objFlags": 0,
+							"defaultClip": "a9f7ecca-8529-47dc-9f2d-8bc3e27edfcd",
+							"clips": [
+								"a9f7ecca-8529-47dc-9f2d-8bc3e27edfcd"
+							]
+						}
+					},
+					"spriteFrameName": "grossini_dance_08",
+					"spriteType": "Simple",
+					"srcBlend": 770,
+					"dstBlend": 771,
+					"trimEnabled": true,
+					"sizeMode": "Trimmed"
+				},
+				"object_type": "Sprite",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 51,
+							"h": 109
+						},
+						"name": "grossini_dance_08",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 100,
+							"y": 208
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"spriteFrameName": "grossini_dance_08",
+					"spriteType": "Simple",
+					"srcBlend": 770,
+					"dstBlend": 771,
+					"trimEnabled": true,
+					"sizeMode": "Trimmed"
+				},
+				"object_type": "Sprite",
+				"children": []
+			}
+		]
+	},
+	"designResolution": {
+		"w": 960,
+		"h": 640
+	},
+	"spriteFrames": [
+		{
+			"name": "grossini_dance_08",
+			"texturePath": "creator/grossini_dance_08.png",
+			"rect": {
+				"x": 17,
+				"y": 7,
+				"w": 51,
+				"h": 109
+			},
+			"offset": {
+				"x": 0,
+				"y": -1
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 85,
+				"h": 121
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 51,
+				"h": 109
+			}
+		}
+	],
+	"animationClips": [
+		{
+			"sample": 60,
+			"speed": 1,
+			"wrapMode": 1,
+			"curveData": {
+				"props": {
+					"rotation": [
+						{
+							"frame": 0,
+							"value": 0
+						},
+						{
+							"frame": 2.95,
+							"value": 90
+						},
+						{
+							"frame": 4.616666666666666,
+							"value": 90
+						},
+						{
+							"frame": 5.383333333333334,
+							"value": 0
+						}
+					],
+					"position": [
+						{
+							"frame": 2.9833333333333334,
+							"value": {
+								"x": 690,
+								"y": 300
+							},
+							"motionPath": []
+						},
+						{
+							"frame": 4.616666666666666,
+							"value": {
+								"x": 630,
+								"y": 446
+							},
+							"motionPath": []
+						}
+					],
+					"scaleX": [
+						{
+							"frame": 0,
+							"value": 1
+						},
+						{
+							"frame": 5.4,
+							"value": 3
+						}
+					],
+					"scaleY": [
+						{
+							"frame": 0.03333333333333333,
+							"value": 1
+						}
+					],
+					"width": [
+						{
+							"frame": 0.15,
+							"value": 51
+						}
+					],
+					"height": [
+						{
+							"frame": 0.2,
+							"value": 109
+						}
+					],
+					"color": [
+						{
+							"frame": 0.25,
+							"value": {
+								"r": 255,
+								"g": 255,
+								"b": 255,
+								"a": 255
+							}
+						}
+					],
+					"opacity": [
+						{
+							"frame": 0.08333333333333333,
+							"value": 255
+						}
+					],
+					"anchorX": [
+						{
+							"frame": 0.11666666666666667,
+							"value": 0.5
+						}
+					],
+					"anchorY": [
+						{
+							"frame": 0.15,
+							"value": 0.5
+						}
+					],
+					"skewX": [
+						{
+							"frame": 0.2,
+							"value": 0
+						}
+					],
+					"skewY": [
+						{
+							"frame": 0.21666666666666667,
+							"value": 0
+						}
+					]
+				}
+			},
+			"events": [],
+			"uuid": "959ef130-f65b-4b6e-a9eb-8f0752c0e6a9",
+			"duration": 5.4,
+			"objFlags": 0,
+			"name": "Animation1"
+		},
+		{
+			"sample": 60,
+			"speed": 1,
+			"wrapMode": 1,
+			"curveData": {
+				"props": {
+					"position": [
+						{
+							"frame": 0,
+							"value": {
+								"x": 194,
+								"y": 536
+							},
+							"motionPath": []
+						},
+						{
+							"frame": 1.8,
+							"value": {
+								"x": 724,
+								"y": 502
+							},
+							"motionPath": []
+						},
+						{
+							"frame": 2.9833333333333334,
+							"value": {
+								"x": 807,
+								"y": 237
+							}
+						},
+						{
+							"frame": 4.516666666666667,
+							"value": {
+								"x": 434,
+								"y": 110
+							}
+						},
+						{
+							"frame": 6.416666666666667,
+							"value": {
+								"x": 126,
+								"y": 338
+							}
+						},
+						{
+							"frame": 8.366666666666667,
+							"value": {
+								"x": 176,
+								"y": 513
+							}
+						}
+					],
+					"rotation": [
+						{
+							"frame": 1.8166666666666667,
+							"value": 90
+						},
+						{
+							"frame": 2.9833333333333334,
+							"value": 180
+						},
+						{
+							"frame": 4.5,
+							"value": 270
+						},
+						{
+							"frame": 5.433333333333334,
+							"value": 310
+						},
+						{
+							"frame": 8.016666666666667,
+							"value": 0
+						},
+						{
+							"frame": 8.016666666666667,
+							"value": 310
+						},
+						{
+							"frame": 8.233333333333333,
+							"value": 310
+						}
+					],
+					"color": [
+						{
+							"frame": 2.9833333333333334,
+							"value": {
+								"r": 255,
+								"g": 0,
+								"b": 0,
+								"a": 255
+							}
+						},
+						{
+							"frame": 4.55,
+							"value": {
+								"r": 71,
+								"g": 0,
+								"b": 255,
+								"a": 255
+							}
+						},
+						{
+							"frame": 7.45,
+							"value": {
+								"r": 0,
+								"g": 255,
+								"b": 41,
+								"a": 255
+							}
+						}
+					],
+					"opacity": [
+						{
+							"frame": 1.4,
+							"value": 0
+						},
+						{
+							"frame": 2.3,
+							"value": 255
+						}
+					]
+				}
+			},
+			"events": [],
+			"uuid": "a9f7ecca-8529-47dc-9f2d-8bc3e27edfcd",
+			"duration": 8.366666666666667,
+			"objFlags": 0,
+			"name": "Animation2"
+		}
+	]
+}

@@ -1,0 +1,134 @@
+# OSX - https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# General
+works/
+tmp/
+!.gitkeep
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# Windows - https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+# cocos studio
+*.udf
+
+# proj.android
+proj.android/bin/
+proj.android/assets/
+proj.android/bin/
+proj.android/gen/
+gproj.android/libs/
+proj.android/local.properties
+gproj.android/obj/
+proj.android/app/obj/
+cocos2d/cocos/platform/android/java/bin/
+cocos2d/cocos/platform/android/java/gen/
+cocos2d/cocos/platform/android/java/local.properties
+cocos2d/cocos/platform/android/java/res/
+.metadata/
+.recommenders/
+
+# proj.android-studio
+*.iml
+gproj.android-studio/app/assets
+gproj.android-studio/app/obj/
+gproj.android-studio/app/obj/local/*
+gproj.android-studio/app/libs/armeabi
+#proj.android-studio/app/gradle.properties
+gproj.android-studio/app/local.properties
+gproj.android-studio/*/build/
+gcocos2d/cocos/platform/android/libcocos2dx/build/
+gproj.android-studio/local.properties
+gproj.android-studio/.idea/workspace.xml
+gproj.android-studio/.idea/libraries
+gproj.android-studio/build
+gproj.android-studio/captures
+
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+local.properties
+.classpath
+.project
+proguard/
+*.ipr
+*.iws
+app/build/
+
+proj.android-studio/.idea/*.xml
+
+!.idea/gradle.xml
+!.idea/runConfigurations/*.xml
+
+# proj.ios_mac
+gcocos2d/build/build/
+gcocos2d/build/cocos2d_libs.xcodeproj/xcuserdata/
+gproj.ios_mac/build/
+gproj.ios_mac/*.xcodeproj/project.xcworkspace/
+gproj.ios_mac/*.xcodeproj/xcuserdata/
+!*.pch
+
+# proj.linux
+
+# proj.win32
+cocos2d/cocos/2d/Debug.*/
+cocos2d/cocos/editor-support/spine/proj.win32/Debug.*/
+cocos2d/external/Box2D/proj.win32/Debug.*/
+cocos2d/external/bullet/proj.win32/Debug.*/
+cocos2d/external/recast/proj.win32/Debug.*/
+cocos2d/cocos/2d/Release.*/
+cocos2d/cocos/editor-support/spine/proj.win32/Release.*/
+cocos2d/external/Box2D/proj.win32/Release.*/
+cocos2d/external/bullet/proj.win32/Release.*/
+cocos2d/external/recast/proj.win32/Release.*/
+proj.win32/*.sdf
+proj.win32/*.opensdf
+proj.win32/Debug.*/
+proj.win32/Release.*/
+
+# proj.win8.1-universal
+
+# others

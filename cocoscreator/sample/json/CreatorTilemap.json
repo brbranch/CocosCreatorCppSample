@@ -1,0 +1,357 @@
+{
+	"version": "1.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"cascadeOpacityEnabled": true,
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"globalZOrder": 0,
+				"localZOrder": 0,
+				"opacity": 255,
+				"opacityModifyRGB": false,
+				"tag": -1
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"contentSize": {
+						"w": 960,
+						"h": 640
+					},
+					"name": "Canvas",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"cascadeOpacityEnabled": true,
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255
+					},
+					"globalZOrder": 0,
+					"localZOrder": 0,
+					"opacity": 255,
+					"opacityModifyRGB": false,
+					"position": {
+						"x": 480,
+						"y": 320
+					},
+					"rotationSkewX": 0,
+					"rotationSkewY": 0,
+					"scaleX": 1,
+					"scaleY": 1,
+					"skewX": 0,
+					"skewY": 0,
+					"tag": -1
+				},
+				"object_type": "Node",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"name": "iso-test",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 473,
+							"y": 241
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"tmxFilename": "creator/iso-test.tmx",
+					"desiredContentSize": {
+						"w": 4096,
+						"h": 2048
+					}
+				},
+				"object_type": "TileMap",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 0,
+							"h": 0
+						},
+						"name": "Galaxy",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 115,
+							"y": 251
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"particleFilename": "creator/Galaxy.plist"
+				},
+				"object_type": "Particle",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 85,
+							"h": 121
+						},
+						"name": "New Sprite (Splash)",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 263,
+							"y": 542
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 2,
+						"scaleY": 3,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"spriteFrameName": "grossini_dance_08",
+					"spriteType": "Simple",
+					"srcBlend": 770,
+					"dstBlend": 771,
+					"trimEnabled": false,
+					"sizeMode": "Raw"
+				},
+				"object_type": "Sprite",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 85,
+							"h": 121
+						},
+						"name": "grossini_dance_08",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 100,
+							"y": 407
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"spriteFrameName": "grossini_dance_08",
+					"spriteType": "Simple",
+					"srcBlend": 770,
+					"dstBlend": 771,
+					"trimEnabled": false,
+					"sizeMode": "Raw"
+				},
+				"object_type": "Sprite",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 244.55,
+							"h": 40
+						},
+						"name": "Label_1",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 437,
+							"y": 606
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 40,
+					"labelText": "This is a label",
+					"horizontalAlignment": "Center",
+					"verticalAlignment": "Center",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontType": "System",
+					"fontName": "arial"
+				},
+				"object_type": "Label",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 357.97,
+							"h": 40
+						},
+						"name": "Label_2",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 107,
+							"y": 289
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1
+					},
+					"fontSize": 40,
+					"labelText": "This is another label",
+					"horizontalAlignment": "Center",
+					"verticalAlignment": "Center",
+					"overflowType": "None",
+					"enableWrap": true,
+					"fontType": "System",
+					"fontName": "arial"
+				},
+				"object_type": "Label",
+				"children": []
+			}
+		]
+	},
+	"designResolution": {
+		"w": 960,
+		"h": 640
+	},
+	"spriteFrames": [
+		{
+			"name": "grossini_dance_08",
+			"texturePath": "creator/grossini_dance_08.png",
+			"rect": {
+				"x": 17,
+				"y": 7,
+				"w": 51,
+				"h": 109
+			},
+			"offset": {
+				"x": 0,
+				"y": -1
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 85,
+				"h": 121
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 51,
+				"h": 109
+			}
+		}
+	],
+	"animationClips": []
+}
