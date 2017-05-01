@@ -1,6 +1,5 @@
 #include "AppDelegate.h"
 #include "ControllerManager.hpp"
-#include "HelloWorldScene.h"
 #include "SampleGameController.hpp"
 #include "reader/CreatorReader.h"
 
@@ -61,29 +60,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     register_all_packages();
 
-    // create a scene. it's an autorelease object
-    // auto scene = HelloWorld::createScene();
-
     ControllerManager::getInstance()->setAndRun(SampleGameController::create());
-
-    //    // run
-    //    // director->runWithScene(scene);
-    //    // ccreatorファイルを読み込む
-    //    auto reader = creator::CreatorReader::createWithFilename(
-    //        "creator/SampleGame.ccreator");
-    //    // セットアップする。実は上の多解像度対応などもしてくれてるっぽいです
-    //    reader->setup();
-    //    // 作成されたsceneを取得する
-    //    auto scene = reader->getSceneGraph();
-    //    // 今のバージョンのCocos
-    //    // Creatorだとsetup時にResolutionPolicyがNO_BORDERになっちゃう。
-    //    // 今後なおることを期待してとりあえずは手動で設定する。
-    //    director->setContentScaleFactor(1.0f);
-    //    glview->setDesignResolutionSize(designResolutionSize.width,
-    //                                    designResolutionSize.height,
-    //                                    ResolutionPolicy::EXACT_FIT);
-    //    // sceneを実行する
-    //    director->runWithScene(scene);
 
     return true;
 }

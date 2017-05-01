@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include "cocos2d.h"
 
+/** バーの動きをコントロールするコンポーネント */
 class BarControllTouchComponent : public cocos2d::Component {
    private:
     cocos2d::RefPtr<cocos2d::Node> m_bar;

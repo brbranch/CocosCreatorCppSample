@@ -38,39 +38,47 @@ void BlockGameLogic::evaluate(Ball *ball) {
     }
     for (auto b : m_blocks) {
         if (evaluateNode(b, ball)) {
-            m_blocks.eraseObject(b);
-#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-            // Androidはどうせ重くて動かなくなるからね、仕方ないね
-            auto particle = ParticleSystemQuad::create("explode.plist");
-            particle->setAutoRemoveOnFinish(true);
-            particle->setPosition(b->getPosition());
-            getOwner()->addChild(particle);
-#endif
-
-            auto dis = getOwner()->getEventDispatcher();
-            dis->dispatchCustomEvent("ADDSCORE");
-
-            int se = experimental::AudioEngine::play2d("gun05.mp3");
-            experimental::AudioEngine::setVolume(se, 0.2f);
-            if (m_star) {
-                for (auto i = 45; i < 360; i += 90) {
-                    auto p =
-                        Sprite::createWithSpriteFrame(m_star->getSpriteFrame());
-                    p->setPosition(b->getPosition());
-                    auto component = ExplodeBallComponent::create();
-                    auto rad = CC_DEGREES_TO_RADIANS(i);
-                    auto pos = Point(cosf(rad) * 150.0f, sinf(rad) * 150.0f);
-                    component->setDelta(pos);
-                    component->setLogic(this);
-                    p->addComponent(component);
-                    getOwner()->addChild(p);
-                }
-            }
-
-            b->removeFromParent();
+            destroyBlock(b);
             return;
         }
     }
+}
+
+void BlockGameLogic::destroyBlock(cocos2d::Sprite *b) {
+    m_blocks.eraseObject(b);
+#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+    // Androidはどうせ重くて動かなくなるからね、仕方ないね
+    auto particle = ParticleSystemQuad::create("explode.plist");
+    particle->setAutoRemoveOnFinish(true);
+    particle->setPosition(b->getPosition());
+    getOwner()->addChild(particle);
+#endif
+
+    auto dis = getOwner()->getEventDispatcher();
+    dis->dispatchCustomEvent("ADDSCORE");
+
+    int se = experimental::AudioEngine::play2d("gun05.mp3");
+    experimental::AudioEngine::setVolume(se, 0.2f);
+    if (m_star) {
+        for (auto i = 45; i < 360; i += 90) {
+            auto rad = CC_DEGREES_TO_RADIANS(i);
+            auto pos = Point(cosf(rad) * 150.0f, sinf(rad) * 150.0f);
+            addStarBall(pos, b->getPosition());
+        }
+    }
+
+    b->removeFromParent();
+}
+
+void BlockGameLogic::addStarBall(const cocos2d::Point &speed,
+                                 const cocos2d::Point &pos) {
+    auto p = Sprite::createWithSpriteFrame(m_star->getSpriteFrame());
+    p->setPosition(pos);
+    auto component = ExplodeBallComponent::create();
+    component->setDelta(speed);
+    component->setLogic(this);
+    p->addComponent(component);
+    getOwner()->addChild(p);
 }
 
 void BlockGameLogic::addSeed(cocos2d::Sprite *node) {
@@ -79,7 +87,7 @@ void BlockGameLogic::addSeed(cocos2d::Sprite *node) {
 
 void BlockGameLogic::update(float f) {
     Component::update(f);
-    if (m_isGameOver || m_bar == nullptr) return;
+    if (m_bar == nullptr) return;
     // 出現
     static std::vector<std::vector<int>> s_map = {
         {1, 2, 3},    {2, 3, 4},    {3, 4, 5},   {4, 5, 6}, {7, 8, 9},
@@ -87,6 +95,7 @@ void BlockGameLogic::update(float f) {
         {2, 3, 4, 5}, {3, 4, 5, 6}, {6, 7, 8, 9}};
     static auto mapSize = s_map.size();
     m_timer.update(f);
+
     if (m_timer.isExpired()) {
         if (m_timer.isIntervalOf(1)) {
             setBlock({1, 2, 3, 7, 8, 9});
@@ -96,8 +105,8 @@ void BlockGameLogic::update(float f) {
         setBlock(vect);
         m_timer.setMaxTime(MAX(m_timer.maxTime() - 0.01f, 0.5f));
     }
+
     // バーにりんごが当たってないか
-    // 別クラスでやる方がよさげだけど面倒だしここで。。
     for (auto block : m_blocks) {
         if (m_bar->getBoundingBox().intersectsCircle(
                 block->getPosition(), block->getContentSize().width * 0.5f)) {
@@ -149,8 +158,7 @@ bool BlockGameLogic::evaluateWall(Ball *ball) {
 }
 
 void BlockGameLogic::gameOver() {
-    if (m_isGameOver) return;
-    m_isGameOver = true;
+    if (m_bar == nullptr) return;
     experimental::AudioEngine::play2d("exp05.mp3");
     auto particle = ParticleSystemQuad::create("explode.plist");
     particle->setAutoRemoveOnFinish(true);
@@ -189,10 +197,6 @@ bool BlockGameLogic::evaluateNode(cocos2d::Node *node, Ball *ball) {
     auto nodeRect = node->getBoundingBox();
     auto ballRect = ball->rect();
     auto delta = ball->delta();
-    // auto ballPos = Point(ballRect.getMidX(), ballRect.getMidY());
-    // auto pos = node->getPosition();
-    // auto dist = pos.getDistance(ballPos);
-    // if (dist < (ballRect.size.width + nodeRect.size.width) * 0.5f) {
     if (nodeRect.intersectsRect(ballRect)) {
         // 横に当たった
         if (nodeRect.getMinX() > ballRect.getMinX()) {

@@ -13,17 +13,17 @@
 #include "BlockGameLogic.hpp"
 #include "cocos2d.h"
 
+/** ボールインタフェース。 */
 class Ball {
    public:
     virtual ~Ball(){};
     virtual void hit(const cocos2d::Point& vector) = 0;
     virtual cocos2d::Point delta() = 0;
     virtual cocos2d::Rect rect() = 0;
-    virtual bool isMainBall() {
-        return true;
-    }
+    virtual bool isMainBall() = 0;
 };
 
+/** ボールの動きを定義するコンポーネント。 */
 class BallBounceComponent : public cocos2d::Component, public Ball {
    private:
     CC_SYNTHESIZE(cocos2d::Point, m_delta, Delta);
@@ -37,6 +37,9 @@ class BallBounceComponent : public cocos2d::Component, public Ball {
     };
     cocos2d::Rect rect() override;
     void update(float f) override;
+    bool isMainBall() override {
+        return true;
+    }
 
    private:
     bool init() override;

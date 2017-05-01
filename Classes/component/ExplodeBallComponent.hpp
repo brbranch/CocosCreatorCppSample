@@ -15,6 +15,7 @@
 #include "cocos2d.h"
 #include "core/Timer.hpp"
 
+/** 破壊時に出るボールの動きを定義するコンポーネント */
 class ExplodeBallComponent : public BallBounceComponent {
    private:
     br::Timer m_timer;

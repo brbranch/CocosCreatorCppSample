@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include "cocos2d.h"
 
+/** 落ちていく動きを定義するコンポーネント */
 class DropComponent : public cocos2d::Component {
    private:
     float m_speed = 0.f;
